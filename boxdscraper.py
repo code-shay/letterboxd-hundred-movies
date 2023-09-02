@@ -81,7 +81,7 @@ row = 0
 column = 0
 no_of_cols = 10
 
-# Pasting poster in a grid. Rown number is not limited, so editing 
+# Pasting poster in a grid. Row number is not limited, so editing 
 # no_of_cols is sufficient to change the shape of the grid as desired
 for poster in posterList:
     if (column == no_of_cols):
