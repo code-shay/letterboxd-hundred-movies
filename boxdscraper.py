@@ -133,8 +133,8 @@ for poster in posterList:
     #domColor4 = Image.new(mode = "RGB", size = image_size, color= get_dominant_color(poster, rank = 4))
     #domColor5 = Image.new(mode = "RGB", size = image_size, color= get_dominant_color(poster, rank = 5))
 
-    domColorPalette.paste(domColor1, box = [12 * image_no + 2 * image_no, 0])
-    domColorPalette.paste(domColor2, box = [12 * image_no + 2 * image_no, 250])
+    domColorPalette.paste(domColor1, box = [12 * image_no, 0])
+    domColorPalette.paste(domColor2, box = [12 * image_no, 250])
     #domColorPalette.paste(domColor3, box = [12 * image_no, int(500/2 + 500/4)])
     #domColorPalette.paste(domColor4, box = [12 * image_no, int(500/2 + 500/4 + 500/8)])
     #domColorPalette.paste(domColor5, box = [12 * image_no, int(500/2 + 500/4 + 500/8 + 500/16)])
